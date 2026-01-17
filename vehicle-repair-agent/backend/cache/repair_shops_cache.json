@@ -1,0 +1,347 @@
+{
+  "entries": {
+    "san_francisco__california__united_states": {
+      "location": "San Francisco, California, United States",
+      "shops": [
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 5,
+          "address": "1774 Mission St",
+          "reviews": [
+            "Extremely affordable... they were able to cover it perfectly without having to remove the bumper and do a complete repaint job.",
+            "Call Car found a place in Nevada to straighten and re-chrome the existing bumper; it looks as good as new!",
+            "They took an almost totaled car and made it brand new, were constantly communicative, and dealt with the insurance effortlessly."
+          ],
+          "website": "http://www.callcarcollision.com/",
+          "latitude": 37.768822,
+          "services": [
+            "Front-end collision repair",
+            "bumper restoration",
+            "frame straightening",
+            "paintless dent repair",
+            "insurance claims management",
+            "classic car restoration"
+          ],
+          "zip_code": "94103",
+          "longitude": -122.420245,
+          "shop_name": "Call Car Collision - Auto Body Shop",
+          "phone_number": "(415) 861-8440",
+          "review_count": 112,
+          "distance_miles": 0.7,
+          "hours_of_operation": "Mon–Fri 8:00 AM – 5:00 PM | Sat–Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 4.8,
+          "address": "333 S Van Ness Ave",
+          "reviews": [
+            "They took care of literally everything... Joel even let me borrow a shop car while the car was being fixed with no extra cost! When the car was returned, I was shocked! The car looked practically brand new.",
+            "The whole team was so helpful from guiding me through my first insurance claim to doing a beautiful job with repairing the car. My Honda looks better than new, both inside and out!",
+            "Everyone is incredibly friendly and makes you feel welcome from the moment you walk in. Joel was the employee who helped me, and he treated me like family."
+          ],
+          "website": "http://www.avenuebodyshop.com/",
+          "latitude": 37.7679138,
+          "services": [
+            "Full collision repair",
+            "front-end damage repair",
+            "structural frame straightening",
+            "paint matching",
+            "bumper replacement",
+            "interior detailing",
+            "insurance claim coordination"
+          ],
+          "zip_code": "94103",
+          "longitude": -122.4176101,
+          "shop_name": "Avenue Body Shop",
+          "phone_number": "(415) 864-4417",
+          "review_count": 182,
+          "distance_miles": 0.8,
+          "hours_of_operation": "Mon–Fri 8:00 AM – 5:00 PM | Sat 9:00 AM – 12:00 PM | Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 5,
+          "address": "1670 15th St",
+          "reviews": [
+            "Bismark was incredibly friendly, professional, and communicative... he even offered to get my car smog-checked while it was being repaired.",
+            "Bismark replaced and painted the front fender and bumper and repaired and painted the hood and driver door to match. It now looks like a brand new car.",
+            "Bismark is the BEST!... he even let me borrow his car to go around while mine was being fixed."
+          ],
+          "website": "https://autocollisionrepairsanfrancisco.com/",
+          "latitude": 37.7667986,
+          "services": [
+            "Structural frame repair",
+            "front-end collision repair",
+            "paint matching",
+            "OEM part sourcing",
+            "bumper replacement",
+            "free interior detailing"
+          ],
+          "zip_code": "94103",
+          "longitude": -122.4214042,
+          "shop_name": "Bismark Auto Body & Paint, INC",
+          "phone_number": "(415) 613-4343",
+          "review_count": 108,
+          "distance_miles": 1.2,
+          "hours_of_operation": "Mon–Fri 8:00 AM – 6:00 PM | Sat 8:00 AM – 5:00 PM | Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 5,
+          "address": "351 Valencia St",
+          "reviews": [
+            "Tony helped identify hidden damage and made sure my car came back in excellent condition... Shannon provides great customer service.",
+            "They seamlessly managed the entire process, from arranging for me to Enterprise Rent-A-Car to keeping me updated every step of the way.",
+            "Tony and the team at West Wind are professional and practice excellent craftsmanship."
+          ],
+          "website": "https://westwindautomotive.com/",
+          "latitude": 37.7673076,
+          "services": [
+            "Structural frame repair",
+            "front-end collision repair",
+            "paintless dent repair",
+            "OEM part installation",
+            "insurance claims handling",
+            "complimentary car wash"
+          ],
+          "zip_code": "94103",
+          "longitude": -122.4218346,
+          "shop_name": "West Wind Automotive",
+          "phone_number": "(415) 621-6218",
+          "review_count": 102,
+          "distance_miles": 1.2,
+          "hours_of_operation": "Mon–Fri 8:00 AM – 5:00 PM | Sat–Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 4.8,
+          "address": "145 Capp St",
+          "reviews": [
+            "They absolutely brought it back to life... the whole process was super smooth.",
+            "Less than 5 days later—like brand new! Highly recommended!!",
+            "It was seamless... I couldn't even tell where they repaired it."
+          ],
+          "website": "http://domportauto.com/",
+          "latitude": 37.7643937,
+          "services": [
+            "Front-end collision repair",
+            "structural frame repair",
+            "paint matching",
+            "bumper replacement",
+            "insurance claim coordination"
+          ],
+          "zip_code": "94110",
+          "longitude": -122.4184978,
+          "shop_name": "Domport Auto Body",
+          "phone_number": "(415) 861-2355",
+          "review_count": 78,
+          "distance_miles": 1.3,
+          "hours_of_operation": "Mon–Fri 8:00 AM – 5:00 PM | Sat–Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 4.9,
+          "address": "450 Potrero Ave",
+          "reviews": [
+            "Denny was calm, communicative and kind... handled everything with my State Farm insurance which took a huge weight off my shoulders.",
+            "Denny gave me a much more realistic quote... the work was completed several hours later. They also washed my car!",
+            "They provide a towing service in case your car gets totaled or immobilized."
+          ],
+          "website": "https://fixautousa.com/potrero-avenue/",
+          "latitude": 37.7637679,
+          "services": [
+            "Collision repair",
+            "structural frame repair",
+            "paint matching",
+            "bumper replacement",
+            "towing service",
+            "insurance claim management"
+          ],
+          "zip_code": "94110",
+          "longitude": -122.4077355,
+          "shop_name": "Fix Auto (Potrero Avenue)",
+          "phone_number": "(415) 861-2333",
+          "review_count": 105,
+          "distance_miles": 2.1,
+          "hours_of_operation": "Mon–Fri 8:00 AM – 5:00 PM | Sat–Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 4.9,
+          "address": "610 Bryant St",
+          "reviews": [
+            "Kai is incredibly kind, honest, and professional... they even cleaned my car before returning it and it looked better than when I dropped it off.",
+            "Kai was incredibly friendly, helpful, and professional... the entire repair process was fast and easy.",
+            "Kai was super flexible, helpful, and honest... they had the car ready faster than expected."
+          ],
+          "website": "https://www.karryscollisioncenter.com/",
+          "latitude": 37.7791246,
+          "services": [
+            "Front-end collision repair",
+            "structural frame repair",
+            "paint matching",
+            "bumper replacement",
+            "insurance claim coordination",
+            "complimentary car wash"
+          ],
+          "zip_code": "94107",
+          "longitude": -122.3990517,
+          "shop_name": "Karry's Collision Center",
+          "phone_number": "(415) 538-8688",
+          "review_count": 118,
+          "distance_miles": 3.5,
+          "hours_of_operation": "Mon–Fri 9:00 AM – 6:00 PM | Sat 10:30 AM – 1:00 PM | Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 4.8,
+          "address": "1745 Divisadero St",
+          "reviews": [
+            "They were quick and professional and did all the backend work with my insurance.",
+            "Chose this place because it is Tesla approved... service, communication and auto repair to be exceptional.",
+            "Greg is friendly and informative. They are one of State Farm's preferred members."
+          ],
+          "website": "https://fixautousa.com/locations/california/divisadero/",
+          "latitude": 37.7858098,
+          "services": [
+            "Collision repair",
+            "structural frame repair",
+            "paint matching",
+            "bumper replacement",
+            "towing service",
+            "insurance claim management"
+          ],
+          "zip_code": "94115",
+          "longitude": -122.4403098,
+          "shop_name": "Fix Auto Divisadero",
+          "phone_number": "(415) 865-8450",
+          "review_count": 89,
+          "distance_miles": 4.1,
+          "hours_of_operation": "Mon–Fri 7:30 AM – 5:00 PM | Sat–Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 4.9,
+          "address": "2715 Geary Blvd",
+          "reviews": [
+            "Will's Auto Body Shop does the BEST WORK, for the BEST PRICE, and they are SUPER FRIENDLY and HONEST.",
+            "Romeo and Martin... less than 24 hours my car is looking brand new!!",
+            "Romeo even repaired a few dings that was not included in the estimate to make the job look perfect."
+          ],
+          "website": "http://willsautobodyshop.com/",
+          "latitude": 37.7819338,
+          "services": [
+            "Structural frame repair",
+            "front-end collision repair",
+            "paint matching",
+            "bumper replacement",
+            "insurance claim coordination",
+            "complimentary detailing"
+          ],
+          "zip_code": "94118",
+          "longitude": -122.4482067,
+          "shop_name": "Will's Auto Body Shop",
+          "phone_number": "(415) 563-8777",
+          "review_count": 101,
+          "distance_miles": 4.4,
+          "hours_of_operation": "Mon–Fri 8:00 AM – 5:00 PM | Sat 8:00 AM – 12:00 PM | Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 5,
+          "address": "625 Mariposa St",
+          "reviews": [
+            "They not only fixed it beautifully but also gave it a fresh paint job that makes it look brand new... finished the repairs ahead of schedule!",
+            "They did incredibly, on time, on budget, and even had me come back to fix the unrelated door lock as a courtesy.",
+            "They didn't charge me a single dollar for fixing a low-pressure tire and checked all other tires for safety."
+          ],
+          "website": "https://goldengateautobody.com/",
+          "latitude": 37.764064,
+          "services": [
+            "Full collision repair",
+            "frame straightening",
+            "paint matching",
+            "bumper replacement",
+            "interior detailing",
+            "free tire safety checks"
+          ],
+          "zip_code": "94107",
+          "longitude": -122.390167,
+          "shop_name": "Golden Gate Auto Body",
+          "phone_number": "(415) 875-9660",
+          "review_count": 100,
+          "distance_miles": 5.1,
+          "hours_of_operation": "Mon–Fri 8:00 AM – 5:00 PM | Sat 10:00 AM – 2:00 PM | Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 4.8,
+          "address": "3730 Mission St",
+          "reviews": [
+            "My car looked brand new!! EVERY BIT that the Selecta Auto Team touched/worked on turned to Gold... it was PURELY A VIP EXPERIENCE.",
+            "The team was incredibly prompt, getting the work done faster than I expected without sacrificing quality.",
+            "Such professionalism and care towards, not only the car but also to me."
+          ],
+          "website": "https://www.selectaautobody.com/",
+          "latitude": 37.736902,
+          "services": [
+            "Full collision repair",
+            "structural frame repair",
+            "paint matching",
+            "bumper replacement",
+            "interior detailing",
+            "insurance claim management"
+          ],
+          "zip_code": "94110",
+          "longitude": -122.42446,
+          "shop_name": "Selecta Auto Body",
+          "phone_number": "(415) 821-0000",
+          "review_count": 105,
+          "distance_miles": 7.5,
+          "hours_of_operation": "Mon–Fri 7:30 AM – 5:30 PM | Sat–Sun Closed"
+        },
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "rating": 5,
+          "address": "1465 Donner Ave",
+          "reviews": [
+            "Finally a mechanic you can trust!... they sent me a report of the findings and their work.",
+            "They matched the paint color perfectly... I would greatly recommend this shop.",
+            "They offer so much than just car repairs for insurance claims such as car detailing, paint touch ups."
+          ],
+          "website": "http://www.velocecollision.com/",
+          "latitude": 37.7228643,
+          "services": [
+            "PPG-certified paint repair",
+            "front-end collision repair",
+            "structural frame repair",
+            "paintless dent repair",
+            "detailing",
+            "paint touch-ups"
+          ],
+          "zip_code": "94124",
+          "longitude": -122.3915556,
+          "shop_name": "Veloce Collision - Body shop - Auto Repair - PPG Certified Paint",
+          "phone_number": "(415) 231-0002",
+          "review_count": 98,
+          "distance_miles": 9.5,
+          "hours_of_operation": "Mon–Fri 9:00 AM – 5:00 PM | Sat 9:00 AM – 2:00 PM | Sun Closed"
+        }
+      ],
+      "timestamp": 1768605539532,
+      "damage_description": "Car damage analysis: Front view of a wrecked dark green car, with a crushed front and a detached license plate, set on a street with brick buildings in the background, daytime lighting.. This vehicle requires repair services for the visible damage."
+    }
+  }
+}

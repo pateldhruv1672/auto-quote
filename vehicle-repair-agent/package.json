@@ -1,0 +1,22 @@
+{
+  "name": "vehicle-repair-agent",
+  "version": "1.0.0",
+  "description": "AI agent to find vehicle repair shops using Yutori API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["yutori", "vehicle-repair", "ai-agent"],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}
