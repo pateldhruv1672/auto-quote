@@ -209,5 +209,218 @@
       },
       "summary": "Analyzed 2 repair shop(s).\nReceived 2 quote(s):\n\n1. Avenue Body Shop: $500.00 (30 days)\n2. Call Car Collision - Auto Body Shop: $1000.00 (2 days)\n\n✅ RECOMMENDED: Avenue Body Shop with the lowest quote of $500.00"
     }
+  },
+  "session-1768610607873": {
+    "sessionId": "session-1768610607873",
+    "callIds": [
+      "019bc968-1e9d-766a-8659-aaeb24794341",
+      "019bc968-1e9b-7550-aef9-e7fe2bf0b2d4"
+    ],
+    "shops": [
+      {
+        "name": "Call Car Collision - Auto Body Shop",
+        "phone": "+14159419368",
+        "address": "1774 Mission St, San Francisco, CA"
+      },
+      {
+        "name": "Avenue Body Shop",
+        "phone": "+15104588678",
+        "address": "333 S Van Ness Ave, San Francisco, CA"
+      }
+    ],
+    "damageDescription": "Car damage analysis: Damaged dark green sedan after an accident, crumpled hood, broken headlights, and license plate falling off. The background shows an urban scene with red brick buildings under daylight with natural lighting. Wide-angle lens.. This vehicle requires repair services for the visible damage.",
+    "status": "completed",
+    "startTime": 1768610607873,
+    "results": [
+      {
+        "callId": "019bc968-1e9d-766a-8659-aaeb24794341",
+        "shopName": "Call Car Collision - Auto Body Shop",
+        "phoneNumber": "+14159419368",
+        "status": "ended",
+        "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. Am I speaking with someone from Call Car Collision? Auto body shop,\nUser: Yes.\nAI: Great. I appreciate your time. I'd like to get a quote for some repair work on a dark green sedan that was recently in an accident. The damage includes a crumpled hood, broken headlights, and the license plate has come off. Could you provide me with an estimated cost for these repairs?\nUser: The cost for the repair is 1002 days. There is no accommodation. Okay?\nAI: It seems there may have been a misunderstanding. Could you please clarify? What would be the estimated cost for the\nUser: 1000 dollar, 2 days, no recommendation.\nAI: thank you for the clarification. So the estimated cost for the repairs is 1000 dollars. And it would take about 2 days to complete. Can you accommodate the vehicle for repair this week?\nUser: I can accommodate. There's no additional recommendation.\nAI: Thank you for confirming that you can accommodate the repair this week. I appreciate your assistance. Could you please provide me with your contact information in case the customer\nUser: My name is Max. Alright. Thank you. Bye.\nAI: Thank you for your help, Max. I appreciate the information you've provided. Have a great day. Goodbye.\n",
+        "quotation": {
+          "price": 1000,
+          "currency": "dollar",
+          "estimatedDays": 2,
+          "notes": "No additional recommendation."
+        },
+        "duration": 9,
+        "endedReason": "customer-ended-call",
+        "recordingUrl": "https://storage.vapi.ai/019bc968-1e9d-766a-8659-aaeb24794341-1768610693075-dd198903-644f-43a8-973b-3060cf89359d-mono.wav"
+      },
+      {
+        "callId": "019bc968-1e9b-7550-aef9-e7fe2bf0b2d4",
+        "shopName": "Avenue Body Shop",
+        "phoneNumber": "+15104588678",
+        "status": "ended",
+        "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. Am I speaking with someone from Avenue Body Shop?\nUser: Yes.\nAI: Great. Thank you for taking my call. I'm reaching out to get a price quotation for a dark green sedan that has some damage after an accident. The damage includes a crumpled hood, broken headlights, and a license plate that has fallen off. Could you provide me with an estimate for the repair cost and how long you think the repairs would take? Additionally, can\nUser: Sure. It would be thousand dollars and 5 days.\nAI: Thank you for that information. To confirm, the estimated repair cost is around 1000 dollars and the repair time is up approximately 5 days. Could you also let me know if you can accommodate this repair sometime within this week? Additionally, are there any\nUser: Yes. That's it. Thank you.\nAI: Thank thank you for your assistance. I appreciate your help in providing the quote and information. I'll pass this along to the customer. Have a great day.\nUser: Okay. Yep. You.\nAI: Thank you. If I\n",
+        "quotation": {
+          "price": 1000,
+          "currency": "dollars",
+          "estimatedDays": 5,
+          "notes": "Shop can accommodate repair within the week."
+        },
+        "duration": 8,
+        "endedReason": "customer-ended-call",
+        "recordingUrl": "https://storage.vapi.ai/019bc968-1e9b-7550-aef9-e7fe2bf0b2d4-1768610682169-1c639d46-ce22-40c1-b180-9b634cff8b31-mono.wav"
+      }
+    ],
+    "analysis": {
+      "ranked": [
+        {
+          "callId": "019bc968-1e9d-766a-8659-aaeb24794341",
+          "shopName": "Call Car Collision - Auto Body Shop",
+          "phoneNumber": "+14159419368",
+          "status": "ended",
+          "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. Am I speaking with someone from Call Car Collision? Auto body shop,\nUser: Yes.\nAI: Great. I appreciate your time. I'd like to get a quote for some repair work on a dark green sedan that was recently in an accident. The damage includes a crumpled hood, broken headlights, and the license plate has come off. Could you provide me with an estimated cost for these repairs?\nUser: The cost for the repair is 1002 days. There is no accommodation. Okay?\nAI: It seems there may have been a misunderstanding. Could you please clarify? What would be the estimated cost for the\nUser: 1000 dollar, 2 days, no recommendation.\nAI: thank you for the clarification. So the estimated cost for the repairs is 1000 dollars. And it would take about 2 days to complete. Can you accommodate the vehicle for repair this week?\nUser: I can accommodate. There's no additional recommendation.\nAI: Thank you for confirming that you can accommodate the repair this week. I appreciate your assistance. Could you please provide me with your contact information in case the customer\nUser: My name is Max. Alright. Thank you. Bye.\nAI: Thank you for your help, Max. I appreciate the information you've provided. Have a great day. Goodbye.\n",
+          "quotation": {
+            "price": 1000,
+            "currency": "dollar",
+            "estimatedDays": 2,
+            "notes": "No additional recommendation."
+          },
+          "duration": 9,
+          "endedReason": "customer-ended-call",
+          "recordingUrl": "https://storage.vapi.ai/019bc968-1e9d-766a-8659-aaeb24794341-1768610693075-dd198903-644f-43a8-973b-3060cf89359d-mono.wav"
+        },
+        {
+          "callId": "019bc968-1e9b-7550-aef9-e7fe2bf0b2d4",
+          "shopName": "Avenue Body Shop",
+          "phoneNumber": "+15104588678",
+          "status": "ended",
+          "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. Am I speaking with someone from Avenue Body Shop?\nUser: Yes.\nAI: Great. Thank you for taking my call. I'm reaching out to get a price quotation for a dark green sedan that has some damage after an accident. The damage includes a crumpled hood, broken headlights, and a license plate that has fallen off. Could you provide me with an estimate for the repair cost and how long you think the repairs would take? Additionally, can\nUser: Sure. It would be thousand dollars and 5 days.\nAI: Thank you for that information. To confirm, the estimated repair cost is around 1000 dollars and the repair time is up approximately 5 days. Could you also let me know if you can accommodate this repair sometime within this week? Additionally, are there any\nUser: Yes. That's it. Thank you.\nAI: Thank thank you for your assistance. I appreciate your help in providing the quote and information. I'll pass this along to the customer. Have a great day.\nUser: Okay. Yep. You.\nAI: Thank you. If I\n",
+          "quotation": {
+            "price": 1000,
+            "currency": "dollars",
+            "estimatedDays": 5,
+            "notes": "Shop can accommodate repair within the week."
+          },
+          "duration": 8,
+          "endedReason": "customer-ended-call",
+          "recordingUrl": "https://storage.vapi.ai/019bc968-1e9b-7550-aef9-e7fe2bf0b2d4-1768610682169-1c639d46-ce22-40c1-b180-9b634cff8b31-mono.wav"
+        }
+      ],
+      "bestOption": {
+        "callId": "019bc968-1e9d-766a-8659-aaeb24794341",
+        "shopName": "Call Car Collision - Auto Body Shop",
+        "phoneNumber": "+14159419368",
+        "status": "ended",
+        "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. Am I speaking with someone from Call Car Collision? Auto body shop,\nUser: Yes.\nAI: Great. I appreciate your time. I'd like to get a quote for some repair work on a dark green sedan that was recently in an accident. The damage includes a crumpled hood, broken headlights, and the license plate has come off. Could you provide me with an estimated cost for these repairs?\nUser: The cost for the repair is 1002 days. There is no accommodation. Okay?\nAI: It seems there may have been a misunderstanding. Could you please clarify? What would be the estimated cost for the\nUser: 1000 dollar, 2 days, no recommendation.\nAI: thank you for the clarification. So the estimated cost for the repairs is 1000 dollars. And it would take about 2 days to complete. Can you accommodate the vehicle for repair this week?\nUser: I can accommodate. There's no additional recommendation.\nAI: Thank you for confirming that you can accommodate the repair this week. I appreciate your assistance. Could you please provide me with your contact information in case the customer\nUser: My name is Max. Alright. Thank you. Bye.\nAI: Thank you for your help, Max. I appreciate the information you've provided. Have a great day. Goodbye.\n",
+        "quotation": {
+          "price": 1000,
+          "currency": "dollar",
+          "estimatedDays": 2,
+          "notes": "No additional recommendation."
+        },
+        "duration": 9,
+        "endedReason": "customer-ended-call",
+        "recordingUrl": "https://storage.vapi.ai/019bc968-1e9d-766a-8659-aaeb24794341-1768610693075-dd198903-644f-43a8-973b-3060cf89359d-mono.wav"
+      },
+      "summary": "Analyzed 2 repair shop(s).\nReceived 2 quote(s):\n\n1. Call Car Collision - Auto Body Shop: $1000.00 (2 days)\n2. Avenue Body Shop: $1000.00 (5 days)\n\n✅ RECOMMENDED: Call Car Collision - Auto Body Shop with the lowest quote of $1000.00"
+    }
+  },
+  "session-1768611605538": {
+    "sessionId": "session-1768611605538",
+    "callIds": [
+      "019bc977-4e83-7886-b4d8-d60f42776cc1",
+      "019bc977-4e82-7dd7-877c-06ffd97acef8"
+    ],
+    "shops": [
+      {
+        "name": "Call Car Collision - Auto Body Shop",
+        "phone": "+14159419368",
+        "address": "1774 Mission St, San Francisco, CA"
+      },
+      {
+        "name": "Avenue Body Shop",
+        "phone": "+15104588678",
+        "address": "333 S Van Ness Ave, San Francisco, CA"
+      }
+    ],
+    "damageDescription": "Car damage analysis: A damaged dark green sedan car, with a crushed front end, the hood is crumpled, the license plate is bent and hanging. The background includes a street lined with brick buildings and trees under a clear sky. The photograph uses natural daylight.. This vehicle requires repair services for the visible damage.",
+    "status": "completed",
+    "startTime": 1768611605538,
+    "results": [
+      {
+        "callId": "019bc977-4e83-7886-b4d8-d60f42776cc1",
+        "shopName": "Call Car Collision - Auto Body Shop",
+        "phoneNumber": "+14159419368",
+        "status": "ended",
+        "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. Am I speaking with someone from Call Car Collision? Auto body shop,\nUser: Yes.\nAI: Great. I need some information regarding a damaged die green sedan. The car has a crushed front end, the hood is crumpled, and the license plate is bent and hanging. Could you provide me with a quote for the repair of this visible damage? Additionally, I would like to know how long the repair would take. If you can accommodate the\nUser: 1000? Today. 7 days.\nAI: Thank you for the quick response. Just to confirm, the estimated cost for the repair is 1000 dollars.\nUser: Yes.\nAI: And it would take about 7 days to complete. Can you accommodate the customer for this week? Also, are there\nUser: Yes. Yes. There's no more recommendation. Thank you\nAI: Perfect. Perfect. Thank you for the thank you for the inform Goodbye.\nUser: Bye bye.\nAI: You for your help.\n",
+        "quotation": {
+          "price": 1000,
+          "currency": "dollars",
+          "estimatedDays": 7
+        },
+        "duration": 9,
+        "endedReason": "assistant-said-end-call-phrase",
+        "recordingUrl": "https://storage.vapi.ai/019bc977-4e83-7886-b4d8-d60f42776cc1-1768611673643-75e96b21-5a76-466f-97cd-e6ca949113f0-mono.wav"
+      },
+      {
+        "callId": "019bc977-4e82-7dd7-877c-06ffd97acef8",
+        "shopName": "Avenue Body Shop",
+        "phoneNumber": "+15104588678",
+        "status": "ended",
+        "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. I speaking with someone from Avenue Body Shop?\nUser: Yes.\nAI: Great. I'd like to describe the damage\nUser: Yes.\nAI: to the vehicle so I can get a price quotation. The car is a dark green sedan with a crushed front end. The hood is crumpled, and the license plate is bent and hanging. I was wondering if you could provide an estimated cost for the repair and let me know how long the repair would take. Also, would\nUser: It would it would cost 2000 dollars and 7 days.\nAI: Thank you for that information. Can you accommodate the customer for this repair within this week? Also, that's good to hear.\nUser: Yes.\nAI: Are there any additional services or recommendations you would suggest for this vehicle repair?\nUser: Yes.\nAI: Could you Thank you for your help.\nUser: No. That's it. Thank you.\nAI: Appreciate the information you've provided. Have a great day.\n",
+        "quotation": {
+          "price": 2000,
+          "currency": "USD",
+          "estimatedDays": 7
+        },
+        "duration": 6,
+        "endedReason": "customer-ended-call",
+        "recordingUrl": "https://storage.vapi.ai/019bc977-4e82-7dd7-877c-06ffd97acef8-1768611675298-ea8841ab-1685-48ab-8325-23f822301fea-mono.wav"
+      }
+    ],
+    "analysis": {
+      "ranked": [
+        {
+          "callId": "019bc977-4e83-7886-b4d8-d60f42776cc1",
+          "shopName": "Call Car Collision - Auto Body Shop",
+          "phoneNumber": "+14159419368",
+          "status": "ended",
+          "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. Am I speaking with someone from Call Car Collision? Auto body shop,\nUser: Yes.\nAI: Great. I need some information regarding a damaged die green sedan. The car has a crushed front end, the hood is crumpled, and the license plate is bent and hanging. Could you provide me with a quote for the repair of this visible damage? Additionally, I would like to know how long the repair would take. If you can accommodate the\nUser: 1000? Today. 7 days.\nAI: Thank you for the quick response. Just to confirm, the estimated cost for the repair is 1000 dollars.\nUser: Yes.\nAI: And it would take about 7 days to complete. Can you accommodate the customer for this week? Also, are there\nUser: Yes. Yes. There's no more recommendation. Thank you\nAI: Perfect. Perfect. Thank you for the thank you for the inform Goodbye.\nUser: Bye bye.\nAI: You for your help.\n",
+          "quotation": {
+            "price": 1000,
+            "currency": "dollars",
+            "estimatedDays": 7
+          },
+          "duration": 9,
+          "endedReason": "assistant-said-end-call-phrase",
+          "recordingUrl": "https://storage.vapi.ai/019bc977-4e83-7886-b4d8-d60f42776cc1-1768611673643-75e96b21-5a76-466f-97cd-e6ca949113f0-mono.wav"
+        },
+        {
+          "callId": "019bc977-4e82-7dd7-877c-06ffd97acef8",
+          "shopName": "Avenue Body Shop",
+          "phoneNumber": "+15104588678",
+          "status": "ended",
+          "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. I speaking with someone from Avenue Body Shop?\nUser: Yes.\nAI: Great. I'd like to describe the damage\nUser: Yes.\nAI: to the vehicle so I can get a price quotation. The car is a dark green sedan with a crushed front end. The hood is crumpled, and the license plate is bent and hanging. I was wondering if you could provide an estimated cost for the repair and let me know how long the repair would take. Also, would\nUser: It would it would cost 2000 dollars and 7 days.\nAI: Thank you for that information. Can you accommodate the customer for this repair within this week? Also, that's good to hear.\nUser: Yes.\nAI: Are there any additional services or recommendations you would suggest for this vehicle repair?\nUser: Yes.\nAI: Could you Thank you for your help.\nUser: No. That's it. Thank you.\nAI: Appreciate the information you've provided. Have a great day.\n",
+          "quotation": {
+            "price": 2000,
+            "currency": "USD",
+            "estimatedDays": 7
+          },
+          "duration": 6,
+          "endedReason": "customer-ended-call",
+          "recordingUrl": "https://storage.vapi.ai/019bc977-4e82-7dd7-877c-06ffd97acef8-1768611675298-ea8841ab-1685-48ab-8325-23f822301fea-mono.wav"
+        }
+      ],
+      "bestOption": {
+        "callId": "019bc977-4e83-7886-b4d8-d60f42776cc1",
+        "shopName": "Call Car Collision - Auto Body Shop",
+        "phoneNumber": "+14159419368",
+        "status": "ended",
+        "transcript": "AI: Hello. I'm calling on behalf of a customer who needs vehicle repair services. Am I speaking with someone from Call Car Collision? Auto body shop,\nUser: Yes.\nAI: Great. I need some information regarding a damaged die green sedan. The car has a crushed front end, the hood is crumpled, and the license plate is bent and hanging. Could you provide me with a quote for the repair of this visible damage? Additionally, I would like to know how long the repair would take. If you can accommodate the\nUser: 1000? Today. 7 days.\nAI: Thank you for the quick response. Just to confirm, the estimated cost for the repair is 1000 dollars.\nUser: Yes.\nAI: And it would take about 7 days to complete. Can you accommodate the customer for this week? Also, are there\nUser: Yes. Yes. There's no more recommendation. Thank you\nAI: Perfect. Perfect. Thank you for the thank you for the inform Goodbye.\nUser: Bye bye.\nAI: You for your help.\n",
+        "quotation": {
+          "price": 1000,
+          "currency": "dollars",
+          "estimatedDays": 7
+        },
+        "duration": 9,
+        "endedReason": "assistant-said-end-call-phrase",
+        "recordingUrl": "https://storage.vapi.ai/019bc977-4e83-7886-b4d8-d60f42776cc1-1768611673643-75e96b21-5a76-466f-97cd-e6ca949113f0-mono.wav"
+      },
+      "summary": "Analyzed 2 repair shop(s).\nReceived 2 quote(s):\n\n1. Call Car Collision - Auto Body Shop: $1000.00 (7 days)\n2. Avenue Body Shop: $2000.00 (7 days)\n\n✅ RECOMMENDED: Call Car Collision - Auto Body Shop with the lowest quote of $1000.00"
+    }
   }
 }

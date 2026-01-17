@@ -100,8 +100,6 @@ function App() {
     summary?: string;
   } | null>(null);
   const [showBookingModal, setShowBookingModal] = useState(false);
-  const [customerName, setCustomerName] = useState('');
-  const [customerPhone, setCustomerPhone] = useState('');
 
   // Get user's location on mount
   useEffect(() => {
@@ -283,12 +281,6 @@ function App() {
 
   // Book appointment at selected shop
   const handleBookAppointment = async (shop: VehicleRepairShop) => {
-    if (!customerName || !customerPhone) {
-      setShowBookingModal(true);
-      setBookingShop(shop);
-      return;
-    }
-
     setIsBooking(true);
     setBookingShop(shop);
     setShowQuotationModal(false);
@@ -298,8 +290,6 @@ function App() {
       const response = await axios.post('/api/book-appointment', {
         shop,
         damageDescription,
-        customerName,
-        customerPhone,
       });
 
       const bookingId = response.data.bookingId;
@@ -341,18 +331,10 @@ function App() {
     }
   };
 
-  // Submit booking with customer info
-  const submitBooking = () => {
-    if (bookingShop && customerName && customerPhone) {
-      setShowBookingModal(false);
-      handleBookAppointment(bookingShop);
-    }
-  };
-
   return (
     <div className="app-container">
       <header className="header">
-        <h1>🚗 Car Damage Repair Finder</h1>
+        <h1>🚗 AutoQuote</h1>
         <p>Upload a photo of your car damage and we'll find the best repair shops near you</p>
       </header>
 
@@ -646,51 +628,6 @@ function App() {
         </div>
       )}
 
-      {/* Customer Info Modal (for booking) */}
-      {showBookingModal && !bookingResult && (
-        <div className="quotation-modal-overlay" onClick={() => setShowBookingModal(false)}>
-          <div className="booking-modal" onClick={(e) => e.stopPropagation()}>
-            <button className="modal-close" onClick={() => setShowBookingModal(false)}>×</button>
-            
-            <h2>📅 Book Appointment</h2>
-            {bookingShop && (
-              <p className="booking-shop-name">at {bookingShop.shop_name}</p>
-            )}
-            
-            <div className="booking-form">
-              <div className="form-group">
-                <label>Your Name</label>
-                <input
-                  type="text"
-                  value={customerName}
-                  onChange={(e) => setCustomerName(e.target.value)}
-                  placeholder="Enter your full name"
-                />
-              </div>
-              <div className="form-group">
-                <label>Phone Number</label>
-                <input
-                  type="tel"
-                  value={customerPhone}
-                  onChange={(e) => setCustomerPhone(e.target.value)}
-                  placeholder="Enter your phone number"
-                />
-              </div>
-              <p className="booking-note">
-                📞 Our AI will call the shop to book your appointment for tomorrow
-              </p>
-              <button 
-                className="book-button primary"
-                onClick={submitBooking}
-                disabled={!customerName || !customerPhone}
-              >
-                📅 Confirm & Book Appointment
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* Booking Confirmation Modal */}
       {showBookingModal && bookingResult && (
         <div className="quotation-modal-overlay" onClick={() => setShowBookingModal(false)}>
@@ -771,8 +708,8 @@ function App() {
                 Calling {bookingShop.shop_name} to schedule for tomorrow...
               </p>
             )}
-            <p className="booking-customer">
-              Booking for: {customerName}
+            <p className="booking-note-overlay">
+              🤖 Our AI agent is speaking with the repair shop now
             </p>
           </div>
         </div>

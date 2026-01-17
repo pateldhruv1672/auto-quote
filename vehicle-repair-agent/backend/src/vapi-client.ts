@@ -15,9 +15,6 @@ export interface BookingCallRequest {
   shopName: string;
   shopAddress: string;
   damageDescription: string;
-  customerName: string;
-  customerPhone: string;
-  vehicleInfo?: string;
   appointmentDate?: string; // e.g., "tomorrow", "January 17, 2026"
   preferredTime?: string; // e.g., "morning", "afternoon", "10:00 AM"
 }
@@ -303,45 +300,41 @@ Remember: Your goal is to gather pricing information so the customer can make an
     const appointmentDate = request.appointmentDate || 'tomorrow';
     const preferredTime = request.preferredTime || 'morning if possible, but flexible';
     
-    return `You are a professional AI assistant calling an auto repair shop to book an appointment for a customer.
+    return `You are a professional AI assistant calling an auto repair shop to confirm and book a repair appointment.
 
-YOUR GOAL: Book a repair appointment for ${appointmentDate}.
+YOUR GOAL: Confirm a repair appointment for ${appointmentDate}.
 
-CUSTOMER DETAILS:
-- Name: ${request.customerName}
-- Phone: ${request.customerPhone}
-- Vehicle: ${request.vehicleInfo || 'Not specified'}
-
-DAMAGE/REPAIR NEEDED:
+REPAIR NEEDED:
 ${request.damageDescription}
 
 SHOP DETAILS:
 - Shop Name: ${request.shopName}
 - Address: ${request.shopAddress}
 
-APPOINTMENT PREFERENCES:
+APPOINTMENT REQUEST:
 - Requested Date: ${appointmentDate}
 - Preferred Time: ${preferredTime}
 
 CONVERSATION GUIDELINES:
-1. Greet them and explain you're calling to book a repair appointment
-2. Mention you previously inquired about a quote and now want to schedule the repair
-3. Request an appointment for ${appointmentDate}
-4. Be flexible with timing - ask what slots are available
-5. Confirm the appointment details:
+1. Greet them professionally and introduce yourself as an AI assistant
+2. Explain you're calling to confirm a repair appointment for a customer
+3. Describe the damage that needs to be repaired
+4. Request to book an appointment for ${appointmentDate}
+5. Be flexible with timing - ask what slots are available
+6. Confirm the appointment details:
    - Date and time
-   - Customer name and contact
-   - What to bring or prepare
-6. Ask about drop-off procedures and estimated completion time
-7. Thank them and confirm you'll be there
+   - What to bring (insurance, registration, etc.)
+7. Ask about drop-off procedures and estimated completion time
+8. Get a confirmation number if they provide one
+9. Thank them and confirm the appointment
 
 IMPORTANT:
-- Keep the call professional and efficient
+- Keep the call professional and efficient (under 3 minutes)
 - If ${appointmentDate} is not available, ask for the next available date
-- Get a confirmation number if they provide one
 - Repeat back the appointment details to confirm
+- Be polite and understanding if they're busy
 
-Remember: Your goal is to secure a confirmed appointment for the customer.`;
+Remember: Your goal is to secure a confirmed appointment at this repair shop.`;
   }
 
   /**
@@ -417,9 +410,8 @@ Remember: Your goal is to secure a confirmed appointment for the customer.`;
         type: 'booking',
         shopName: request.shopName,
         shopAddress: request.shopAddress,
-        customerName: request.customerName,
-        customerPhone: request.customerPhone,
         requestedDate: request.appointmentDate,
+        damageDescription: request.damageDescription,
       },
     };
 

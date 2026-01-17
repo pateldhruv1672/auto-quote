@@ -1195,3 +1195,14 @@ body {
   margin-top: 20px;
 }
 
+/* Booking Overlay Note */
+.booking-note-overlay {
+  color: #94a3b8;
+  margin-top: 15px;
+  font-size: 0.95rem;
+  padding: 12px 20px;
+  background: rgba(124, 58, 237, 0.15);
+  border-radius: 10px;
+  border: 1px dashed rgba(124, 58, 237, 0.4);
+}
+

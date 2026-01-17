@@ -1,0 +1,21 @@
+{
+  "booking-1768611701225": {
+    "bookingId": "booking-1768611701225",
+    "callId": "019bc978-e262-7778-98a8-4223d3c3d723",
+    "shopName": "Call Car Collision - Auto Body Shop",
+    "shopPhone": "+14158618440",
+    "shopAddress": "1774 Mission St, San Francisco, CA",
+    "damageDescription": "Car damage analysis: A damaged dark green sedan car, with a crushed front end, the hood is crumpled, the license plate is bent and hanging. The background includes a street lined with brick buildings and trees under a clear sky. The photograph uses natural daylight.. This vehicle requires repair services for the visible damage.",
+    "requestedDate": "Saturday, January 17, 2026",
+    "status": "failed",
+    "startTime": 1768611706472,
+    "result": {
+      "callId": "019bc978-e262-7778-98a8-4223d3c3d723",
+      "shopName": "Call Car Collision - Auto Body Shop",
+      "phoneNumber": "+14158618440",
+      "status": "ended",
+      "appointmentBooked": false,
+      "endedReason": "call.in-progress.error-providerfault-outbound-sip-503-service-unavailable"
+    }
+  }
+}

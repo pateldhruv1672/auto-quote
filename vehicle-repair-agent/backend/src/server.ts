@@ -29,6 +29,30 @@ const DEMO_PHONES = [
   process.env.DEMO_PHONE_2 || '+14155555678',
 ];
 
+// Normalize phone number to E.164 format
+function normalizePhoneNumber(phone: string): string {
+  // Remove all non-digit characters
+  const digits = phone.replace(/\D/g, '');
+  
+  // If it's a 10-digit US number, add +1
+  if (digits.length === 10) {
+    return `+1${digits}`;
+  }
+  
+  // If it's 11 digits starting with 1, add +
+  if (digits.length === 11 && digits.startsWith('1')) {
+    return `+${digits}`;
+  }
+  
+  // If it already has the right format, just ensure + prefix
+  if (digits.length > 10) {
+    return `+${digits}`;
+  }
+  
+  // Return as-is if we can't normalize (will likely fail VAPI validation)
+  return phone.startsWith('+') ? phone : `+${digits}`;
+}
+
 // Initialize VAPI client
 let vapiClient: VapiClient | null = null;
 if (VAPI_API_KEY && VAPI_PHONE_NUMBER_ID) {
@@ -58,8 +82,6 @@ interface BookingSession {
   shopName: string;
   shopPhone: string;
   shopAddress: string;
-  customerName: string;
-  customerPhone: string;
   damageDescription: string;
   requestedDate: string;
   status: 'calling' | 'completed' | 'failed';
@@ -1034,18 +1056,11 @@ app.post('/api/book-appointment', async (req: Request, res: Response) => {
     const {
       shop,
       damageDescription,
-      customerName,
-      customerPhone,
-      vehicleInfo,
       preferredTime,
     } = req.body;
 
     if (!shop || !shop.shop_name) {
       return res.status(400).json({ error: 'Shop information is required' });
-    }
-
-    if (!customerName || !customerPhone) {
-      return res.status(400).json({ error: 'Customer name and phone are required' });
     }
 
     // Calculate tomorrow's date
@@ -1058,7 +1073,10 @@ app.post('/api/book-appointment', async (req: Request, res: Response) => {
       day: 'numeric',
     });
 
-    const shopPhone = shop.phone_number || DEMO_PHONES[0];
+    // Always use demo phone number for booking confirmation calls
+    const shopPhone = DEMO_PHONES[0];
+    console.log(`📱 Using demo phone for booking: "${shopPhone}" (Shop: ${shop.shop_name})`);
+    
     const bookingId = `booking-${Date.now()}`;
 
     // Mock mode if VAPI not configured
@@ -1071,8 +1089,6 @@ app.post('/api/book-appointment', async (req: Request, res: Response) => {
         shopName: shop.shop_name,
         shopPhone,
         shopAddress: `${shop.address}, ${shop.city}, ${shop.state}`,
-        customerName,
-        customerPhone,
         damageDescription: damageDescription || 'Vehicle repair',
         requestedDate: appointmentDate,
         status: 'calling',
@@ -1118,9 +1134,6 @@ app.post('/api/book-appointment', async (req: Request, res: Response) => {
       shopName: shop.shop_name,
       shopAddress: `${shop.address}, ${shop.city}, ${shop.state}`,
       damageDescription: damageDescription || 'Vehicle repair needed',
-      customerName,
-      customerPhone,
-      vehicleInfo,
       appointmentDate,
       preferredTime,
     });
@@ -1131,8 +1144,6 @@ app.post('/api/book-appointment', async (req: Request, res: Response) => {
       shopName: shop.shop_name,
       shopPhone,
       shopAddress: `${shop.address}, ${shop.city}, ${shop.state}`,
-      customerName,
-      customerPhone,
       damageDescription: damageDescription || 'Vehicle repair',
       requestedDate: appointmentDate,
       status: 'calling',
