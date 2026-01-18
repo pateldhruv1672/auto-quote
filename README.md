@@ -51,6 +51,8 @@ AutoQuote is a comprehensive full-stack application that revolutionizes how user
 5. **Compare & book** the best option with one click
 
 This eliminates hours of manual research, phone calls, and quote comparisons, providing users with actionable repair options in minutes.
+<img width="1512" height="855" alt="image" src="https://github.com/user-attachments/assets/7443cf89-c3a9-4482-a418-f556a95c9ea2" />
+
 
 ---
 
